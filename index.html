@@ -7,25 +7,420 @@
     <!-- Font Awesome icons (free version)-->
     <script src="./assets/font awsome/js/all.js"></script>
     <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="./assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Core theme CSS-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <title> Construction </title>
+    <link href="./css/styles.css" rel="stylesheet" />
+    <title> IConstruct </title>
 </head>
 
 <body class="wrapper__page">
     <!-- Navbar -->
-    <nav>
-
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#"> <img src="./img/iCONSTRUCT.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ml-auto text-center">
+                    <li class="nav-item  ">
+                        <a class="nav-link current" href="#"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services"> Services </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> <i class="fas fa-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!-- Navbar -->
 
+    <!-- Back to Top Button -->
+    <a id="back-to-top" href="#" class="back-to-top" role="button">
+        <i class="fas fa-arrow-up backIcon"></i>
+    </a>
+
+    <!-- Back to Top Button -->
 
 
-    <!--Footer -->
-    <footer class="footer">
+    <!-- Masthead-->
+    <section class="masthead">
+        <div class="container" { constructor(params) { } }>
+            <h1 class="masthead__title text-uppercase mb-4">
+                <div>We are</div>
+                <div>iCONSTRUCT </div>
+            </h1>
+            <p>
+                We set the pace for others to follow in the construction business,
+                if we can think it, we can make it!
+            </p>
+            <button class="masthead__button text-uppercase">
+                Learn more
+            </button>
+        </div>
+    </section>
+    <!-- Masthead-->
 
+    <!--  Banner -->
+    <div class="banner text-uppercase text-center py-1">
+        WE ARE EXPERTS, WE ARE AWESOME, WE ARE GOOD AT WHAT WE DO
+    </div>
+    <!--  Banner -->
+
+
+    <!--  Products -->
+
+    <section class="products mt-5 mb-5">
+        <div class="container">
+            <div class="card-deck">
+                <div class="card mb-3">
+                    <img src="./img//products/1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">Best house</h5>
+                        <p class="card-text">Our job is not just to make what you have in mind become a reality but also
+                            to help you achieve the dream...</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="products__button text-uppercase"> Read More</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img src="./img/products/2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">Modern design</h5>
+                        <p class="card-text">Our job is not just to make what you have in mind become a reality but also
+                            to help you achieve the dream... </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="products__button text-uppercase"> Read More</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img src="./img/products/3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase">Team work </h5>
+                        <p class="card-text">Our job is not just to make what you have in mind become a reality but also
+                            to help you achieve the dream... </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="products__button text-uppercase"> Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--  Products -->
+
+    <!--  Recent Projects -->
+    <section class="projects">
+        <div class="container">
+            <div class="projects__header">
+                <h2 class="text-uppercase projects__title "> Recent Projects</h2>
+                <span class="handlerButtons">
+                    <a href="#">
+                        <i class="fas fa-caret-left "> </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-caret-right ml-1"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="row mt-5 project__images">
+                <div class="col-md-4 col-sm-12 mb-3 " href="#"><img class="w-100" src="./img/recent/1.png" alt=""></div>
+                <div href="#" class="col-md-4 col-sm-12 mb-3"><img class="w-100" src="./img/recent/2.png" alt=""></div>
+                <div href="#" class="col-md-4 col-sm-12 mb-3"><img class="w-100" src="./img/recent/3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Recent Projects -->
+
+    <!--  Blog Posts  -->
+    <section class="blog pt-5 pb-2 mb-5" id="blog">
+        <div class="container">
+            <div class="blog__header">
+                <h2 class="text-uppercase blog__title "> Blog Posts </h2>
+                <span class="handlerButtons">
+                    <a href="#">
+                        <i class="fas fa-caret-left "> </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-caret-right ml-1"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="row mt-5 blog__images">
+                <div class="col-lg-4 col-md-6 mb-2 " href="#">
+                    <img class="w-100 mb-3" src="./img/blogpost/0.png" alt="">
+                    <img class="w-100" src="./img/blogpost/2.png" alt="">
+                </div>
+                <div href="#" class="col-lg-4 col-md-6 mb-1">
+                    <img class="w-100 " src="./img/blogpost/1.png" alt="">
+                </div>
+                <div href="#" class="col-lg-4 col-md-12 mb-3 text-right blog__third">
+                    <h4 class="text-uppercase font-weight-bold pt-2"> Construction </h4>
+                    <ul class="blog__list ">
+                        <li>We have a lot to say but we </li>
+                        <li> believe that actions speak a lot </li>
+                        <li> better than words. </li>
+                        <li> Our customers </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Blog Posts  -->
+
+    <!--  Services  -->
+    <section class="services mb-5" id="services">
+        <div class="container">
+            <div class="blog__header">
+                <h2 class="text-uppercase blog__title "> Our Services</h2>
+                <span class="handlerButtons">
+                    <a href="#">
+                        <i class="fas fa-caret-left "> </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-caret-right ml-1"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="mt-5 services__group">
+                <div href="#" class=" services__item mb-5" style="min-width: 350px;">
+                    <div class="services__image ">
+                        <img src="./img/ourservices/truck.png" alt="">
+                    </div>
+                    <p class="text-uppercase services__text">Delivery truck</p>
+                </div>
+                <div href="#" class=" services__item mb-5" style="min-width: 350px;">
+                    <div class="services__image">
+                        <img src="./img/ourservices/bulldozer.png" alt="">
+                    </div>
+                    <p class="text-uppercase services__text">Bulldozer</p>
+                </div>
+                <div href="#" class="services__item mb-5" style="min-width: 350px;">
+                    <div class="services__image ">
+                        <img src="./img/ourservices/excavator.png" height="35.99px" alt="">
+                    </div>
+                    <p class="text-uppercase services__text">excavator</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Services  -->
+
+
+
+    <!--  Testimonials  -->
+    <div class="testimonials swiper__background">
+        <h2 class="text-uppercase text-white text-center font-weight-bold pt-4"> testimonials</h2>
+
+        <div class="swiper__Container mt-5 mb-5">
+            <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center swiper__item">
+                        <p class="swipe__text w-50  w-50  mx-auto   ">
+                            iConstruct have been leading the construction industry for quiet sometime now and when they
+                            handled my new scrscraper, the job was nothing short of amazing.
+                        </p>
+                        <img src="./img/testimonials/Ellipse 1.png" alt="">
+                        <p class="testimonial__user mb-0 pb-0"> Janet Jackson </p>
+                        <p class=""> CEO Empire Studios </p>
+                    </div>
+                    <div class="carousel-item  text-center swiper__item">
+                        <p class="swipe__text w-50  w-50  mx-auto   ">
+                            iConstruct have been leading the construction industry for quiet sometime now and when they
+                            handled my new scrscraper, the job was nothing short of amazing.
+                        </p>
+                        <img src="./img/testimonials/Ellipse 1.png" alt="">
+                        <p class="testimonial__user mb-0 pb-0"> Janet Jackson </p>
+                        <p class=""> CEO Empire Studios </p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <i class="fas fa-angle-left swiper__arrow"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <i class="fas fa-angle-right swiper__arrow"></i>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--  Testimonials  -->
+
+    <!--  Recent news   -->
+    <section class="mb-5 ">
+        <div class="container news pt-5">
+            <div class="blog__header mb-4">
+                <h2 class="text-uppercase blog__title "> Recent News</h2>
+                <span class="handlerButtons">
+                    <a href="#">
+                        <i class="fas fa-caret-left "> </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-caret-right ml-1"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="card-deck">
+                <div class="card mb-3">
+                    <img src="./img/products/1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase font-weight-bold">Best house</h5>
+                        <p class="card-text">Our job is not just to make what you have in mind become a reality but also
+                            to help you achieve the dream...</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="products__button text-uppercase"> Read More</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img src="./img/products/2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase font-weight-bold"> Best house</h5>
+                        <p class="card-text">Our job is not just to make what you have in mind become a reality but also
+                            to help you achieve the dream... </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="products__button text-uppercase "> Read More</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img src="./img/products/3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-uppercase font-weight-bold">Best house </h5>
+                        <p class="card-text">Our job is not just to make what you have in mind become a reality but also
+                            to help you achieve the dream... </p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="products__button text-uppercase"> Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Recent news   -->
+
+    <!--  Partners  -->
+    <section class="partners">
+        <div class="container">
+            <div class="blog__header mb-4">
+                <h2 class="text-uppercase blog__title "> Our Partners </h2>
+                <span class="handlerButtons">
+                    <a href="#">
+                        <i class="fas fa-caret-left "> </i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-caret-right ml-1"></i>
+                    </a>
+                </span>
+            </div>
+            <div class="row mt-5 ">
+                <div href="#" class="col-md-3 col-6 mb-3 "><img class="w-100"
+                        src="./img/partner/envato-pty-ltd-vector-logo.png" alt=""></div>
+                <div href="#" class="col-md-3 col-6 mb-3"><img class="w-100" src="./img/partner/waltdisneylogo.png"
+                        alt=""></div>
+                <div href="#" class="col-md-3 col-6 mb-3"><img class="w-100" src="./img/partner/Coca_Cola1.png" alt="">
+                </div>
+                <div href="#" class="col-md-3 col-6 mb-3"><img class="w-100" src="./img/partner/wordpress-logo1.png"
+                        alt="">
+                </div>
+            </div>
+    </section>
+
+    <!--  Partners  -->
+
+
+    <!--Footer  -->
+    <footer class="footer pt-5 pb-1" id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-3 mb-5 ">
+                    <h6 class="footer__title text-uppercase font-weight-bold"> Recent projects</h6>
+                    <p>
+                        We set the pace for others to follow in the construction.
+                    </p>
+                    <p>
+                        Business, if we can think it, we can make it! */
+                    </p>
+                </div>
+                <div class="col-md-12 col-lg-2  mb-5">
+                    <h6 class="footer__title text-uppercase font-weight-bold"> Get in touch</h6>
+                    <p>
+                        No 111 Federal Housing Estate Victoria Island
+                    </p>
+                    <p>
+                        +2347055566674
+                    </p>
+                    <p>
+                        iconstruct@gmail.com
+                    </p>
+                </div>
+                <div class="col-md-12 col-lg-3  mb-5  mr-4 ">
+                    <h6 class="footer__title text-uppercase font-weight-bold"> iConstruct</h6>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="./img/footer/1.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="./img/footer/2.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="./img/footer/3.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="./img/footer/4.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="./img/footer/5.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="./img/footer/6.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="./img/footer/7.png" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="./img/footer/8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3 mb-5 ">
+                    <h6 class="footer__title text-uppercase font-weight-bold mb-2">Subscribe </h6>
+                    <input type="email" class="py-2 mb-2 w-100"><br>
+                    <button class="footer__button text-uppercase">
+                        Subscribe
+                    </button>
+
+
+
+                </div>
+            </div>
+            <p class="text-center mt-4 footer__copy">Copyright of iConstruct Nig Ltd</p>
+        </div>
+        </div>
+        <!-- Back to Top Button -->
+        <a id="back-to-top__footer" href="#" class="back-to-top__footer" role="button">
+            <i class="fas fa-arrow-up backIcon"></i>
+        </a>
+        <!-- Back to Top Button -->
     </footer>
 
     <!--Footer -->
@@ -34,8 +429,8 @@
     <script src="./assets/jquery//jquery-3.5.1.min.js"></script>
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/popper/popper.min.js"></script>
-    <!-- Javascript Link -->
     <script src="./js/app.js"></script>
+    <!-- Javascript Link -->
 </body>
 
 </html>

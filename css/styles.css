@@ -224,7 +224,8 @@ body {
 
 /* what people say */
 .people {
-  padding: 0 2rem;
+  padding: 5rem 2rem;
+  background: #F9F9F9;
 }
 
 .people .card {
@@ -253,16 +254,12 @@ body {
   background-color: var(--yellow);
 }
 
-@media screen and (max-width: 1000px) {
-  .people {
-    padding: 0 0rem;
-  }
-}
+ 
 /* what people say */
 
 /* Our Services*/
 .services {
-  background-color: #e5e5e5;
+  background-color: white;
   margin-top: 4rem;
 }
 

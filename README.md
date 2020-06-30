@@ -1,4 +1,11 @@
 ## Construction Site - Envato Project - Team F
+Construction Site - Envato Project - Team F
+New Main Design 
+Slack Username: @lucasD
+Email: gomez.d.lucas@gmail.com
+Link:  
+Designs:  https://www.figma.com/file/dyQQwghxeW3m6oHcJeQj7Q/Untitled?node-id=1%3A2
+
 
 ### Collaboration Instructions:
 

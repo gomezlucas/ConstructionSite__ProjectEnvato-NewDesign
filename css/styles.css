@@ -445,6 +445,13 @@ body {
   color: var(--yellow);
 }
 
+
+@media screen and (max-width: 500px){
+  .footer .container {
+    padding: 0 3rem;
+  }
+}
+
 /* Footer */
 
 /* Back to top button*/

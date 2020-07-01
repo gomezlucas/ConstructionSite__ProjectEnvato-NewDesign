@@ -42,17 +42,20 @@
 
     //initiliaze AOS
     AOS.init(
-        { offset: 150, // offset (in px) from the original trigger point
-             // values from 0 to 3000, with step 50ms
-
+        {
+            offset: 100,
+            disable: function () {
+                var maxWidth = 500;
+                return window.innerWidth < maxWidth;
+            }
         }
     );
- 
+
 
 })(jQuery); // End of use strict
 
 
- 
+
 
 $(window).load(function () {
 

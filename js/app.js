@@ -17,8 +17,11 @@
     };
     // Collapse now if page is not at top
     navbarCollapse();
-    // Collapse the navbar when page is scrolled
 
+    // Collapse the navbar link is clicked 
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
 
     // backToTop Button hided by default 
     $('#back-to-top').fadeOut();

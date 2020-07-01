@@ -195,11 +195,23 @@ body {
   cursor: pointer;
 }
 
-.projects .row div:hover {
-  opacity: 0.7;
+.project__img{
+  overflow: hidden;
+}
+
+.project__img img{
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.project__img img:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
 }
 
 /* Projects*/
+
+ 
 
 /* Our workflow*/
 .workflow {
@@ -406,6 +418,7 @@ body {
   position: relative;
   background-color: #000000;
   color: white;
+  overflow: hidden;
 }
 
 .footer .container {

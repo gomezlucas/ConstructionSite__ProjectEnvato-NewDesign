@@ -7,6 +7,7 @@
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  overflow-x: hidden;
 }
 
 :root {
@@ -16,6 +17,7 @@ body {
 .wrapper__page {
   max-width: 1440px;
   margin: 0 auto;
+
 }
 
 .btn-general {

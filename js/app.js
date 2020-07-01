@@ -45,7 +45,7 @@
         {
             offset: 100,
             disable: function () {
-                var maxWidth = 800;
+                var maxWidth = 650;
                 return window.innerWidth < maxWidth;
             }
         }

@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+ 
+}
+
+html{
+  overflow-x: hidden;
 }
 
 body {

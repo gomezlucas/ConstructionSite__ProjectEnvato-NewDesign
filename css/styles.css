@@ -42,9 +42,7 @@ body {
   padding-bottom: 1.5rem;
 }
 
-.current {
-  color: var(--yellow) !important;
-}
+ 
 
 .navbar-dark .navbar-nav .nav-link {
   color: #ffffff;

@@ -436,6 +436,7 @@ body {
 
 .footer input {
   border-radius: 0;
+ background-clip: inherit;
 }
 
 .btn-contact {

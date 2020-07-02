@@ -29,7 +29,7 @@
     $(window).scroll(navbarCollapse);
     $(window).scroll(function () {
         console.log($(this).scrollTop(), $(this).width())
-        if ($(this).scrollTop() > 50 && $(this).width() < 1440) {
+        if ($(this).scrollTop() > 50) {
             $('#back-to-top').fadeIn();
         } else {
             $('#back-to-top').fadeOut();

@@ -3,15 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
- 
 }
 
-html{
+html {
   overflow-x: hidden;
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Muli", sans-serif;
   overflow-x: hidden;
 }
 
@@ -22,7 +21,6 @@ body {
 .wrapper__page {
   max-width: 1440px;
   margin: 0 auto;
-
 }
 
 .btn-general {
@@ -59,6 +57,7 @@ body {
 #navbarNav a {
   color: #ffffff;
   transition: color 0.3s ease-in-out;
+  font-weight: 700;
 }
 
 #navbarNav a:hover {
@@ -70,7 +69,6 @@ body {
 }
 
 .navbar-dark .navbar-brand {
-  font-family: "Caveat", cursive;
   font-size: 2rem;
   font-weight: 700;
   color: white;
@@ -80,7 +78,6 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: #212529;
-  max-width: 1440px;
   margin: 0 auto;
 }
 #mainNav.navbar-shrink .navbar-brand {
@@ -111,11 +108,19 @@ body {
 .masthead {
   background-image: url("/img/background.png");
   width: 100%;
-  height: 655px;
+  height: 100vh;
+  max-height: 100vmax;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 17rem;
+  /*padding-top: 17rem;*/
+}
+
+.masthead .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .masthead-heading {
@@ -125,6 +130,7 @@ body {
 
 .masthead-heading h1 {
   font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .masthead-heading p {
@@ -202,14 +208,13 @@ body {
   cursor: pointer;
 }
 
-.project__img{
+.project__img {
   overflow: hidden;
 }
 
-.project__img img{
+.project__img img {
   transition: transform 0.5s ease-in-out;
 }
-
 
 .project__img img:hover {
   transform: scale(1.05);
@@ -217,8 +222,6 @@ body {
 }
 
 /* Projects*/
-
- 
 
 /* Our workflow*/
 .workflow {
@@ -244,7 +247,7 @@ body {
 /* what people say */
 .people {
   padding: 5rem 2rem;
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 
 .people .card {
@@ -273,7 +276,6 @@ body {
   background-color: var(--yellow);
 }
 
- 
 /* what people say */
 
 /* Our Services*/
@@ -432,6 +434,10 @@ body {
   padding: 0 6rem;
 }
 
+.footer input {
+  border-radius: 0;
+}
+
 .btn-contact {
   background-color: var(--yellow);
   color: white;
@@ -450,8 +456,7 @@ body {
   color: var(--yellow);
 }
 
-
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .footer .container {
     padding: 0 3rem;
   }
@@ -470,53 +475,26 @@ body {
   z-index: 100;
 }
 
-.back-to-top__footer {
-  color: var(--yellow);
-  bottom: 25px;
-  right: 25px;
-  font-size: 3.5rem;
-  z-index: 100;
-}
-
-.back-to-top .backIcon,
-.back-to-top__footer .backIcon {
+.back-to-top .backIcon {
   background-color: white;
   border: 2x solid var(--yellow);
   border-radius: 50%;
   padding: 10px;
 }
 
-.back-to-top .backIcon:hover,
-.back-to-top__footer .backIcon:hover {
+.back-to-top .backIcon:hover {
   color: white;
   background-color: var(--yellow);
 }
 
-.back-to-top:hover .backIcon,
-.back-to-top__footer:hover .backIcon {
+.back-to-top:hover .backIcon {
   color: white;
   background-color: var(--yellow);
 }
 
-.back-to-top .backIcon:active .back-to-top__footer:active {
+.back-to-top .backIcon:active {
   color: white;
   background-color: var(--yellow);
-}
-
-.back-to-top__footer {
-  position: absolute;
-  display: none;
-}
-
-@media screen and (min-width: 1440px) {
-  .back-to-top {
-    display: none;
-  }
-
-  .back-to-top__footer {
-    position: absolute;
-    display: block;
-  }
 }
 
 /* Back to top button*/
